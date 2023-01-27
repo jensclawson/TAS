@@ -1,0 +1,127 @@
+
+* {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 28pt;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #6d9966;
+    
+}
+
+@media screen and (min-width: 400px) {
+    body { 
+        background-image: url('/resources/trianglebackground.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* Begin Terry */
+
+.terry {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.terry img {
+    z-index: -1;
+}
+
+/* End Terry */
+
+/* Begin Links */
+
+.links-1 {
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 50px;
+}
+
+.links-2 {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -75px;
+    font-size: 110%;
+    text-shadow: 1px 3px 10px #96031a;
+}
+
+.links-3,
+.links-5 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links-5 {
+    margin-top: 52px;
+}
+
+.links-4,
+.links-6 {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+a:link,
+a:visited {
+    color: #1b1b1e;
+}
+
+a:hover {
+    color: #96031a;
+    text-decoration: underline;
+    text-shadow: 1px 1px 4px #fbfffe;
+}
+
+a:active {
+    color: #6d676e;
+    text-decoration: underline overline;
+    text-shadow: 1px 1px 1px #faa916;
+}
+
+/* End Links */
+
+/* Begin Assemble Page */
+
+.take-me-home {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.meeting {
+    color: #1b1b1e;
+    opacity: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    font-size: 18pt;
+    width: 100%;
+    height: auto;
+    line-height: 1;
+    text-align: center;
+}
+
+/* End Assemble Page*/
+
+/* Here comes the footer */
+
+footer {
+    color: #96031a;
+    text-shadow: none;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* All done! */
