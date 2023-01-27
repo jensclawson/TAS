@@ -15,7 +15,7 @@ body {
 
 @media screen and (min-width: 400px) {
     body { 
-        background-image: url("trianglebackground.jpg");
+        background-image: url('trianglebackground.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
